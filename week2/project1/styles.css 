@@ -1,0 +1,6 @@
+You must include the following:
+At least 2 CSS classes
+At least 1 HTML id property
+Style at least 1 child element by first selecting its parent element in CSS
+Only CSS styling (no HTML inline styling)
+
