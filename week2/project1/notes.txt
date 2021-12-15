@@ -1,0 +1,89 @@
+/* You must include the following:
+At least 2 CSS classes
+At least 1 HTML id property
+Style at least 1 child element by first selecting its parent element in CSS
+Only CSS styling (no HTML inline styling) */
+
+/* example:
+p, span{
+    background-color: aqua;
+    font-size: 20px;
+    margin: 20px;
+    border: 20px solid blue;
+    color: red;
+} */
+
+/* 
+"Website should look good from the insdie and out! */
+
+/* A CSS declaration example: property : valeu; =  */
+/* A CSS block used for multiple declarations example: ({
+    property1 : value1;
+    property2 : value2;
+    property3 : value3;
+    property4 : value4;
+})
+ */
+
+ /* A CSS selector: 
+    Define the elements(s) to whiche a CSS rule block applies.
+     Multiple elemtnets are separated by a comma. 
+     
+     exmaple: p, span {
+        property1 : value1;
+        property2 : value2;
+        property3 : value3;
+         property4 : value4;
+     }
+     */
+
+/*  There are 3 methods to apply CSS to an HTML document
+    1 External Stylesheet (the preferred method)
+    2 internal stylesheet.
+    3 inline styles (avoid when possible)
+     */
+
+     /* External Stylesheet example
+     <link rel="stylessheet" href="style.css"> */
+
+     /* internal stylesheet example
+     <style>
+    p{
+        font-size: ;
+        color: ;
+        margin: ;
+    }
+    </style>
+     */
+
+     /* inline styles  ALWARYS! "stays the highest priority"  
+      CAN YOU WHEN YOUR DISIGNING ONLY! */
+
+
+      /* Type selector (tag or element selector) - Select an HTML 
+      tag/element by name  of the tag: exmaples p, div, h1,b,...
+      on style.css;
+        div {
+           background-attachment: fixed;
+           font-weight: ;
+           border-radius: ;
+            } 
+       */
+
+
+       /*  CLASS selector  " clas selector starts with a dot (.). it wil select
+       everything in the document with that class "name" class selector can be 
+       applied to multiple tags, you can also apply mutlple class to the same 
+       element. 
+       example insdie style.css sheet
+
+.borderBox {
+    border-color: black;
+    border-width: 3px;
+    border-style: solid;    
+}
+.red(
+    color:red;
+)
+
+example inside html document
