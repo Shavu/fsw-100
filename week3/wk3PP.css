@@ -1,0 +1,21 @@
+h1{
+    color: blue;
+}
+table, th, td, tr{
+    border: 2px solid black;
+}
+#greeting{
+    font-family: 'Courier New', Courier, monospace;
+}
+#adventure{
+    width: 300px;
+    float: left;
+}
+#words{
+    float:none;
+    font-size: larger;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#blank{
+    color:cornflowerblue;
+}
