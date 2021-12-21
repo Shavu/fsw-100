@@ -1,0 +1,109 @@
+body {
+    background-color: lavenderblush;
+}
+nav {
+    background-color:lightcyan;
+    position: fixed;
+    text-align: center;
+    height: 30px;
+    line-height: 30px;
+    padding-left: 20px;
+    top: 0;
+    width: 100%;
+}
+nav > a {
+    margin-right: 20px;
+    font-size: 17px;
+    font-size: large;
+    font-family: fantasy;
+    font-style: italic;
+    color: lightseagreen;
+    text-decoration: none;
+}
+nav > a:hover{
+    text-decoration: underline;
+    font-weight: bold;
+}
+h1{
+    text-align: center;
+    color:deepskyblue;
+    margin-top: 50px;
+}
+.post > h3{
+    float: none;
+    text-decoration: underline;
+}
+.post-vert > h3{
+    float: none;
+    text-decoration: underline;
+}
+.post-vert{
+    border: 2px grey;
+    border-style: outset;
+    border-radius: 25px;
+    margin: 20px;
+    padding: 10px;
+}
+.post{
+    border: 2px grey;
+    border-style: outset;
+    border-radius: 25px;
+    margin: 20px;
+    padding: 30px;
+    min-height: 500;
+}
+.date{
+    font-weight: lighter;
+    font-size: small;
+}
+.textentry{
+    float: none;
+}
+.readmore{
+    text-decoration: underline;
+    font-style: italic;
+}
+#aboutpage{
+    background-color: lavenderblush;
+}
+#rants{
+    border: 2px grey;
+    border-style: outset;
+    border-radius: 25px;
+    margin: 40px;
+    padding: 20px;
+}
+.horizontal{
+    width: 130px;
+    padding: 10px;
+    float: left;
+}
+.horizontals{
+    width: 150px;
+    padding: 10px;
+    float: left;
+}
+.vertical{
+    width: 200px;
+    padding: 10px;
+    float: left;
+}
+#socold{
+    width: 400px;
+    padding: 20px;
+}
+#wildlife{
+    width: 200px;
+}
+#flowers{
+    width: 200px;
+}
+#contactinfo{
+    text-align: center;
+    font-weight: bold;
+    font-size: larger;
+}
+.fakeinfo{
+    text-decoration: underline;
+    font-style: italic;
+}
