@@ -1,0 +1,19 @@
+Repsonsive design: Meaning it working on all devices. 
+
+1 - Mobile 1st design.
+
+2 CSS media queries example
+    @media screen and (max-width: 400px){
+        .example {display: none;}
+    }
+
+3 Flexbox - Arrange items within a container. 
+ 2 main elemnts: container  use flexbox when creating a menu.
+
+ 3 Grid arrange items without the needs for floats, inline-block or absoulte. 
+ 
+
+    
+
+
+
