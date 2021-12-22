@@ -1,5 +1,5 @@
 body {
-    background-color: lavenderblush;
+    background-color: red;
 }
 nav {
     background-color:lightcyan;
@@ -45,7 +45,7 @@ h1{
     padding: 10px;
 }
 .post{
-    border: 2px grey;
+    border: 2px oragn;
     border-style: outset;
     border-radius: 25px;
     margin: 20px;
