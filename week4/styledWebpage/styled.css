@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&family=Amita&family=Annie+Use+Your+Telescope&family=Bad+Script&family=BenchNine:wght@300&family=Caveat&family=Cinzel&family=Cinzel+Decorative&family=Comforter&family=Coming+Soon&family=Corinthia&family=Dancing+Script&family=Fleur+De+Leah&family=Fredericka+the+Great&family=Fuzzy+Bubbles&family=Grey+Qo&family=Handlee&family=Herr+Von+Muellerhoff&family=Indie+Flower&family=Just+Another+Hand&family=Kalam:wght@300&family=Kings&family=Kristi&family=Lateef&family=Lobster+Two&family=Luxurious+Script&family=Meow+Script&family=Merienda&family=Monsieur+La+Doulaise&family=Montserrat+Alternates:wght@100&family=Nanum+Pen+Script&family=Nothing+You+Could+Do&family=Patrick+Hand&family=Playfair+Display&family=Press+Start+2P&family=Redacted+Script:wght@300&family=Reenie+Beanie&family=Shadows+Into+Light&family=Shadows+Into+Light+Two&family=Shalimar&family=Shippori+Mincho&family=Stardos+Stencil&family=Yuji+Boku&display=swap');
+
+body{
+    background-color: pink;
+}
+header{
+    background-color: antiquewhite;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 50px;
+}
+.logotag{
+    display: inline;
+    margin-left: 30px;
+    font-size: 40px;
+    line-height: 50px;
+    font-family: 'Amatic SC', cursive;
+    font-family: 'Amita', cursive;
+    font-family: 'Annie Use Your Telescope', cursive;
+}
+nav{
+    display: inline;
+    position: relative;
+    text-align: right;
+    top: 0;
+    left: 0;
+    float: right;
+}
+nav > a{
+    position: relative;
+    text-decoration: none;
+    display: inline;
+    margin-right: 30px;
+    font-size: 25px;
+    line-height: 50px;
+    color: dimgrey;
+    font-weight: 800;
+    font-family: 'Amatic SC', cursive;
+    font-family: 'Amita', cursive;
+    font-family: 'Annie Use Your Telescope', cursive;
+}
+nav > a:hover{
+    color:cadetblue
+}
+
+#mainSection{
+    margin-top: 60px;
+    display: inline-block;
+    width: 20%;
+}
+.picture{
+    position: relative;
+    display: inline-block;
+    width: 100%
+}
+.justSomeContext{
+    position: relative;
+    display: inline-block;
+    width: 50%;
+}
+.stuffYouNeed{
+    position: relative;
+    display: inline-block;
+    width: 25%;
+}
+table, th, td, tr{
+    border: 2px solid rgb(138, 91, 124);
+    font-style: italic;
+}
+footer{
+    text-align: center;
+    font-style: italic;
+}
+h2{
+    font-size: 30px;
+    text-decoration: underline;
+    font-family: 'Amatic SC', cursive;
+    font-family: 'Amita', cursive;
+    font-family: 'Annie Use Your Telescope', cursive;
+}
+h4{
+    font-size: 20px;
+    text-decoration: underline;
+    font-family: 'Amatic SC', cursive;
+    font-family: 'Amita', cursive;
+    font-family: 'Annie Use Your Telescope', cursive;
+}
