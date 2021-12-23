@@ -1,8 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Brush+Script&family=Yuji+Hentaigana+Akari&display=swap');
+
 body {
-    background-color: red;
+    background-color: black;
 }
 nav {
-    background-color:lightcyan;
+    background-color:rgb(185, 144, 238);
     position: fixed;
     text-align: center;
     height: 30px;
@@ -17,7 +19,7 @@ nav > a {
     font-size: large;
     font-family: fantasy;
     font-style: italic;
-    color: lightseagreen;
+    color: purple;
     text-decoration: none;
 }
 nav > a:hover{
@@ -27,8 +29,12 @@ nav > a:hover{
 }
 h1{
     text-align: center;
-    color:deepskyblue;
+    color:purple;
     margin-top: 50px;
+}
+.specialfont {
+    font-family: 'Yuji Hentaigana Akari', cursive;
+
 }
 .post > h3{
     float: none;
@@ -42,16 +48,21 @@ h1{
     border: 2px grey;
     border-style: outset;
     border-radius: 25px;
-    margin: 20px;
-    padding: 10px;
+    margin: 20px auto;
+    padding: 30px;
+    min-height: 200px;
+    max-width: 700px;
+    background-color: lightsteelblue;
 }
 .post{
-    border: 2px oragn;
+    border: 2px orange;
     border-style: outset;
     border-radius: 25px;
-    margin: 20px;
+    margin: 20px auto;
     padding: 30px;
-    min-height: 500;
+    min-height: 200px;
+    max-width: 700px;
+    background-color: lightsteelblue;
 }
 .date{
     font-weight: lighter;
