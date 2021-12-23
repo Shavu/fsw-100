@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Nanum+Brush+Script&family=Yuji+Hentaigana+Akari&display=swap');
 
+
 body {
     background-color: black;
 }
@@ -34,7 +35,7 @@ h1{
 }
 .specialfont {
     font-family: 'Yuji Hentaigana Akari', cursive;
-
+    
 }
 .post > h3{
     float: none;
