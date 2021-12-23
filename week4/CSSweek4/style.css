@@ -23,6 +23,7 @@ nav > a {
 nav > a:hover{
     text-decoration: underline;
     font-weight: bold;
+   
 }
 h1{
     text-align: center;
