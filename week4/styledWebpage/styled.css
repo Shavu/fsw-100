@@ -1,25 +1,24 @@
-@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&family=Amita&family=Annie+Use+Your+Telescope&family=Bad+Script&family=BenchNine:wght@300&family=Caveat&family=Cinzel&family=Cinzel+Decorative&family=Comforter&family=Coming+Soon&family=Corinthia&family=Dancing+Script&family=Fleur+De+Leah&family=Fredericka+the+Great&family=Fuzzy+Bubbles&family=Grey+Qo&family=Handlee&family=Herr+Von+Muellerhoff&family=Indie+Flower&family=Just+Another+Hand&family=Kalam:wght@300&family=Kings&family=Kristi&family=Lateef&family=Lobster+Two&family=Luxurious+Script&family=Meow+Script&family=Merienda&family=Monsieur+La+Doulaise&family=Montserrat+Alternates:wght@100&family=Nanum+Pen+Script&family=Nothing+You+Could+Do&family=Patrick+Hand&family=Playfair+Display&family=Press+Start+2P&family=Redacted+Script:wght@300&family=Reenie+Beanie&family=Shadows+Into+Light&family=Shadows+Into+Light+Two&family=Shalimar&family=Shippori+Mincho&family=Stardos+Stencil&family=Yuji+Boku&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Caveat+Brush&display=swap');
+/* font-family: 'Caveat Brush', cursive; */
 body{
-    background-color: lightsteelblue;
+    background-color: darkblue;
 }
 header{
-    background-color: lightslategrey;
+    background-color: darkgreen;
     position: fixed;
     top: 0;
     left: 0;
-    width: 100%;
-    height: 50px;
+    width: 100;
+    height: 50;
 }
 .logotag{
     display: inline;
-    margin-left: 30px;
+    margin-left: 30;
     font-size: 40px;
     line-height: 50px;
-    font-family: 'Amatic SC', cursive;
-    font-family: 'Amita', cursive;
-    font-family: 'Annie Use Your Telescope', cursive;
+    font-family: 'Caveat Brush', cursive;
 }
+
 nav{
     display: inline;
     position: relative;
@@ -35,37 +34,34 @@ nav > a{
     margin-right: 30px;
     font-size: 25px;
     line-height: 50px;
-    color: blueviolet;
+    color: darkorange;
     font-weight: 800;
-    font-family: 'Amatic SC', cursive;
-    font-family: 'Amita', cursive;
-    font-family: 'Annie Use Your Telescope', cursive;
+    font-family: 'Caveat Brush', cursive;
 }
 nav > a:hover{
-    color:cadetblue
+    color: red;
 }
-
 #mainSection{
     margin-top: 60px;
     display: inline-block;
-    width: 20%;
+    width: 20;
 }
 .picture{
     position: relative;
     display: inline-block;
-    width: 100%
+    width: 100%;
 }
 .justSomeContext{
     position: relative;
     display: inline-block;
-    width: 50%;
+    width: 50;
 }
 .stuffYouNeed{
     position: relative;
     display: inline-block;
     width: 25%;
 }
-table, th, td, tr{
+table,th,td,tr{
     border: 2px solid rgb(138, 91, 124);
     font-style: italic;
 }
@@ -78,12 +74,13 @@ h2{
     text-decoration: underline;
     font-family: 'Amatic SC', cursive;
     font-family: 'Amita', cursive;
-    font-family: 'Annie Use Your Telescope', cursive;
+    font-family: 'Caveat Brush', cursive;
 }
 h4{
     font-size: 20px;
     text-decoration: underline;
     font-family: 'Amatic SC', cursive;
     font-family: 'Amita', cursive;
-    font-family: 'Annie Use Your Telescope', cursive;
-}
+    font-family: 'Caveat Brush', cursive;
+
+
