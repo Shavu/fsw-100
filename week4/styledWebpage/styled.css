@@ -1,15 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Caveat+Brush&display=swap');
 /* font-family: 'Caveat Brush', cursive; */
 body{
-    background-color: darkblue;
+    background-color:  #DCDCDC;
 }
 header{
-    background-color: darkgreen;
+    background-color: black;
     position: fixed;
     top: 0;
     left: 0;
-    width: 100;
-    height: 50;
+    width: 100%;
+    height: 50px;
+    z-index: 10;
 }
 .logotag{
     display: inline;
@@ -18,7 +19,6 @@ header{
     line-height: 50px;
     font-family: 'Caveat Brush', cursive;
 }
-
 nav{
     display: inline;
     position: relative;
@@ -44,7 +44,7 @@ nav > a:hover{
 #mainSection{
     margin-top: 60px;
     display: inline-block;
-    width: 20;
+    width: 20%;
 }
 .picture{
     position: relative;
@@ -53,8 +53,11 @@ nav > a:hover{
 }
 .justSomeContext{
     position: relative;
+    left: 40px;
+    top: 50px;
     display: inline-block;
-    width: 50;
+    width: 70%;
+    vertical-align: top;
 }
 .stuffYouNeed{
     position: relative;
@@ -83,5 +86,14 @@ h4{
     font-family: 'Amita', cursive;
     font-family: 'Caveat Brush', cursive;
 }
+.buyIt{
+    padding: 20px;
+    font-size: 30px;
+}
+/* .buyIt >:hover {
+    color: red;
+} */
 
-
+.buyIt :hover{
+    color: red;
+}
