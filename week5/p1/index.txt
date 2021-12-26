@@ -13,6 +13,14 @@ Repsonsive design: Meaning it working on all devices.
  3 Grid arrange items without the needs for floats, inline-block or absoulte. 
  
 
+
+ What is cross-browser compatibility?
+" Cross-browser refers to the ability of
+a website, web application, HTML construct
+or client-side script to function in environments
+that provide its required features and to bow
+out or degrade gracefully when features are absent or lacking
+
     
 
 
