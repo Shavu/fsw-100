@@ -43,8 +43,8 @@
 .color9 {
     background-color: #E76E34;
 }
-
-@media  (min-width: 768px) {
+/*  @media only screen and or */
+@media (min-width: 768px) {
     .mydiv {
         grid-template-columns: repeat(4, 1fr);
     }
