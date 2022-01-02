@@ -41,28 +41,28 @@
     }
 
     #color1 {
-        background-color: rgb(229, 126, 233);
+        background-color: rgb(45, 12, 46);
         grid-column: 1/4;
     }
     
-    .color2 {
-        background-color: rgb(22, 194, 206);
+    .lightsalmon  {
+        background-color: lightsalmon ;
         grid-column: 1/2;
         grid-row: 2/4;
     }
     
-    .color3 {
-        background-color: rgb(75, 236, 75);
+    .darkslategrey  {
+        background-color: darkslategrey ;
         grid-column: 2/4;
     }
     
-    .color4 {
-        background-color: rgb(233, 113, 43);
+    .lightyellow {
+        background-color: lightyellow;
         grid-column: 2/3;
     }
 
-    .color5 {
-        background-color: rgb(233, 113, 43);
+    .steelblue {
+        background-color:steelblue;
         grid-column: 3/4;
     }
    
