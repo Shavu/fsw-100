@@ -13,7 +13,13 @@ Repsonsive design: Meaning it working on all devices.
  3 Grid arrange items without the needs for floats, inline-block or absoulte. 
  
 
-    
+    <!-- <div class="container">
+    <div id="color1"></div>
+    <div class="color2"></div>
+    <div class="color3"></div>
+    <div class="color4"></div>
+    <div class="color5"></div>
+</div> -->
 
 
 
