@@ -1,4 +1,4 @@
-#containers {
+#firstcontainers {
     display: flex;
     justify-content: space-evenly;
 }
@@ -67,7 +67,7 @@
     border: solid lightslategray;
     background-color: lightslategrey;
 }
-#container1 {
+#secContainer {
     display: flex;
     justify-content: space-evenly;
 }
