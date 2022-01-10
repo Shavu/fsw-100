@@ -107,14 +107,14 @@
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande';
     border-radius: 50%;
 }
-.woohoo{
+.clickme{
     display: none;
     background-color: indianred;
     padding: 20px;
     height: 60px;
     width: 250px;
 }
-#box5:hover .woohoo{
+#box5:hover .clickme{
     display: block;
     border-radius: 50%;
     font-family: fantasy;
