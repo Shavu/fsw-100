@@ -1,0 +1,182 @@
+#containers {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#box1 {
+    display: block;
+    height: 60px;
+    width: 250px;
+    background-color: darkseagreen;
+    padding: 20px;
+    border: 5px;
+    margin: 5px;
+    text-align: center;
+    font-size: 14px;
+}
+#box1:hover{
+    background-color: rgb(25, 94, 25);
+    font-size: 30px;
+    transition: all 1s ease-in-out;
+    border-radius: 25px;
+    transform: scale(1.2);
+    margin-bottom: 15;
+    padding-bottom: 30px;
+    box-shadow: 5px 10px #888888;
+}
+
+.box2 {
+    display: block;
+    height: 60px;
+    width: 250px;
+    background-color: rgb(12, 231, 247);
+    padding: 20px;
+    border: 5px;
+    margin: 5px;
+    text-align: center;
+    transition: width 2s, height 2s, background-color 2s, transform 2s;
+}
+.box2:hover{  
+    background-color: cornflowerblue;
+    opacity: 0.5;
+    font-style: italic;
+    border-radius: 25px;
+    background-color: #FFCCCC;
+    width: 250px;
+    height: 60px;
+    transform: rotate(180deg);
+    bottom: 70%;
+    right: auto;
+    position: absolute;
+    transition-timing-function: ease;
+    
+}
+#box3 {
+    display: block;
+    height: 60px;
+    width: 250px;
+    background-color: rgb(75, 236, 75);
+    padding: 20px;
+    border: 5px;
+    margin: 5px;
+    text-align: center;
+    transition: opacity 1s;
+}
+#box3:hover{
+    opacity: 0;
+    border: solid lightslategray;
+    background-color: lightslategrey;
+}
+#container1 {
+    display: flex;
+    justify-content: space-evenly;
+}
+#box4 {
+    display: block;
+    height: 60px;
+    width: 250px;
+    background-color: rgb(233, 113, 43);
+    padding: 20px;
+    border: 5px;
+    margin: 5px;
+    text-align: center;
+}
+#box4:hover{
+    background-color: darkmagenta;
+    border-radius: 25px;
+    font-weight: bold;
+    font-size: large;
+    font-family: cursive;
+    margin-left: 40px;
+    width: 300px;
+    height: 275px;
+}
+#box5 {
+    display: block;
+    height: 60px;
+    width: 250px;
+    background-color: rgb(255, 217, 0);
+    padding: 20px;
+    border: 5px;
+    margin: 5px;
+    text-align: center;
+}
+#box5:hover{
+    background-color: rgb(141, 11, 11);
+    text-decoration: underline;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande';
+    border-radius: 50%;
+}
+.woohoo{
+    display: none;
+    background-color: indianred;
+    padding: 20px;
+    height: 60px;
+    width: 250px;
+}
+#box5:hover .woohoo{
+    display: block;
+    border-radius: 50%;
+    font-family: fantasy;
+    font-weight: bold;
+}
+#box6 {
+    display: block;
+    height: 60px;
+    width: 250px;
+    background-color: rgb(255, 0, 191);
+    padding: 20px;
+    border: 5px;
+    margin: 5px;
+    text-align: center;
+    transition: width 2s, height 2s, transform 2s;
+}
+#box6:hover{
+    
+    background-color: darkcyan;
+    border: 1px solid;
+    padding: 10px;
+    border-radius: 25px;
+    width: 250px;
+    height: 80px;
+    transform: rotate(360deg);
+}
+#musicplay{
+    display: flex;
+justify-content: center;
+align-items: center 
+}
+#music{
+    bottom: 50px;
+    padding: 30px; 
+}
+   @keyframes bgcolor {
+    0% {
+       
+        background-color: darkorange;
+    }
+
+    30% {
+       
+        background-color: royalblue;
+    }
+
+    60% {
+        background-color: darkred
+    }
+
+    90% {
+        background-color: goldenrod
+    }
+
+    100% {
+        background-color: chocolate
+    }
+}
+
+body {
+    -webkit-animation: bgcolor 20s infinite;
+    animation: bgcolor 10s infinite;
+    -webkit-animation-direction: alternate;
+    animation-direction: alternate;
+}
