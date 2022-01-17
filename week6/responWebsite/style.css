@@ -2,6 +2,7 @@
 @media(max-width: 1978px){
 :root{
     --primary-color: rgb(236, 218, 56);
+   
 }
 *{
     box-sizing: border-box;
