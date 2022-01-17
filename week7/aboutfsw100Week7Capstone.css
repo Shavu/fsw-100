@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&family=Amita&family=Annie+Use+Your+Telescope&family=Bad+Script&family=BenchNine:wght@300&family=Caveat&family=Cinzel&family=Cinzel+Decorative&family=Comforter&family=Coming+Soon&family=Corinthia&family=Dancing+Script&family=Fleur+De+Leah&family=Fredericka+the+Great&family=Fuzzy+Bubbles&family=Grey+Qo&family=Handlee&family=Herr+Von+Muellerhoff&family=Indie+Flower&family=Just+Another+Hand&family=Kalam:wght@300&family=Kings&family=Kristi&family=Lateef&family=Lobster+Two&family=Luxurious+Script&family=McLaren&family=Meow+Script&family=Merienda&family=Monsieur+La+Doulaise&family=Montserrat+Alternates:wght@100&family=Nanum+Pen+Script&family=Nothing+You+Could+Do&family=Patrick+Hand&family=Playfair+Display&family=Press+Start+2P&family=Redacted+Script:wght@300&family=Reenie+Beanie&family=Shadows+Into+Light&family=Shadows+Into+Light+Two&family=Shalimar&family=Shippori+Mincho&family=Stardos+Stencil&family=Yuji+Boku&display=swap');
+
+@media(max-width: 123.625em){
+:root{
+    --primary-color: bisque;
+}
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: "lato", "sans-serif";
+    color: #333;
+    line-height: 1.6;
+    font-size: 1em;
+    background-color: var(--primary-color);
+}
+ul{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+    color: #333;
+}
+h1{
+    font-weight: 300;
+    font-size: 2em;
+    line-height: 1.2;
+    margin: 10px 0;
+    text-decoration: underline lightslategrey;
+    font-family: 'Corinthia', cursive;
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Comforter', cursive;
+    font-family: 'Coming Soon', cursive;
+    font-family: 'Indie Flower', cursive;
+    font-family: 'Kings', cursive;
+    font-family: 'Annie Use Your Telescope', cursive;
+    font-family: 'BenchNine', sans-serif;
+    font-family: 'Stardos Stencil', cursive;
+}
+.logo{
+    animation: slideInFromTop 1s ease-in;
+}
+
+img{
+    width: 100%;
+}
+.navbar{
+    background-color: var(--primary-color);
+    color: midnightblue;
+    height: 70px;
+}
+.navbar ul{
+    display: flex;
+}
+.navbar a{
+    padding: 10px;
+    margin: 0 5px;
+}
+.navbar a:hover{
+    border-bottom: 2px rgb(0, 0, 0) solid;
+}
+.navbar .flex{
+    justify-content: space-between;
+}
+.showcase{
+    height: 400px;
+    background-color: var(--primary-color);
+    color: black;
+    position: relative;
+}
+.showcase p{
+    display: inline-block;
+    padding: 10px;
+    margin: 5px;
+}
+.showcase .grid{
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 30px;
+}
+.flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+.grid{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+.contact{
+    grid-column: 3/4;
+    align-content: center;
+}
+.items{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+footer{
+    text-align: center;
+    padding: 25px;
+    margin: 25px;
+    height: 300px;
+    position: absolute; 
+    bottom: 0; 
+    left: 0; 
+    right: 0;
+    grid-row: 2/3;
+}
+}
+@keyframes slideInFromTop{
+    0%{
+        transform: translateX(-100%);
+    }
+    100%{
+        transform: translateX(0);
+    }
+}
+@media(max-width: 64em){
+    .grid{
+        grid-template-columns: repeat(3, 1fr);
+    }
+    .navbar{
+        justify-content: center;
+    }
+    .showcase{
+        height: auto;
+    }
+    .picture{
+        justify-self: center;
+    }
+    .mainList{
+        text-align: center;
+        list-style-type: none;
+    }
+    footer{
+        margin: 10px;
+        padding: 5px;
+    }
+}
+@media (max-width: 51.875em) {
+    .navbar{
+        height: 110px;
+    }
+    .navbar .flex{
+        flex-direction: column;
+    }
+    .navbar ul{
+        padding: 10px;
+        background-color: rgba(0, 0, 0, 0.1);
+        justify-self: center;
+    }
+    .linkbuttons{
+        align-content: center;
+    }
+    .mainList{
+        display: list-item;
+        list-style-type: disc;
+        padding: 10px;
+        margin: 5px;
+        float: right;
+        align-items: center;
+    }
+}  

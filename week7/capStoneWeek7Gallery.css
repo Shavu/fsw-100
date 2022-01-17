@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&family=Amita&family=Annie+Use+Your+Telescope&family=Bad+Script&family=BenchNine:wght@300&family=Caveat&family=Cinzel&family=Cinzel+Decorative&family=Comforter&family=Coming+Soon&family=Corinthia&family=Dancing+Script&family=Fleur+De+Leah&family=Fredericka+the+Great&family=Fuzzy+Bubbles&family=Grey+Qo&family=Handlee&family=Herr+Von+Muellerhoff&family=Indie+Flower&family=Just+Another+Hand&family=Kalam:wght@300&family=Kings&family=Kristi&family=Lateef&family=Lobster+Two&family=Luxurious+Script&family=McLaren&family=Meow+Script&family=Merienda&family=Monsieur+La+Doulaise&family=Montserrat+Alternates:wght@100&family=Nanum+Pen+Script&family=Nothing+You+Could+Do&family=Patrick+Hand&family=Playfair+Display&family=Press+Start+2P&family=Redacted+Script:wght@300&family=Reenie+Beanie&family=Shadows+Into+Light&family=Shadows+Into+Light+Two&family=Shalimar&family=Shippori+Mincho&family=Stardos+Stencil&family=Yuji+Boku&display=swap');
+
+@media(max-width: 123.625em){
+:root{
+    --primary-color: bisque;
+}
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: "lato", "sans-serif";
+    color: #333;
+    line-height: 1.6;
+    background-color: var(--primary-color);
+}
+ul{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+    color: #333;
+}
+h1{
+    font-weight: 300;
+    font-size: 2em;
+    line-height: 1.2;
+    margin: 10px 0;
+    text-decoration: underline lightslategrey;
+    font-family: 'Corinthia', cursive;
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Comforter', cursive;
+    font-family: 'Coming Soon', cursive;
+    font-family: 'Indie Flower', cursive;
+    font-family: 'Kings', cursive;
+    font-family: 'Annie Use Your Telescope', cursive;
+    font-family: 'BenchNine', sans-serif;
+    font-family: 'Stardos Stencil', cursive;
+}
+.logo{
+    display: inline;
+}
+.navbar{
+    color: midnightblue;
+    height: 70px;
+}
+nav{
+    display: inline;
+    position: relative;
+    text-align: right;
+    padding: 0;
+    
+}
+.linkButtons{
+    text-decoration: none;
+    list-style: none;
+    padding: 0;
+    position: relative;
+    display: inline;
+    float: right;
+}
+.linkButtons li{
+    display: inline-block;
+}
+.linkButtons li a{
+    font-size: 20px;
+    padding: 10px;
+    margin: 0 5px;
+}
+a:hover{
+    border-bottom: 2px rgb(0, 0, 0) solid;
+}
+.container{
+    margin: 0 auto;
+    overflow: auto;
+    padding: 0 40px;
+}
+.mycontainer{
+    margin: 0 auto;
+    padding: 0 40px;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+}
+img{
+    width: 200px;
+    height: 270px;
+    padding: 5px;
+    margin: 5px;
+}
+img:hover{
+        transition: all 1s ease-in-out;
+        border-radius: 25px;
+        transform: scale(1.2);
+        margin-bottom: 5px;
+        padding-bottom: 5px;
+        box-shadow: 5px 5px #888888;
+}
+.small{
+    height: 200px;
+}
+footer{
+    text-align: center;
+    padding: 15px;
+    margin: 15px;
+}
+.logo{
+    animation: slideInFromTop 1s ease-in;
+}
+}
+@keyframes slideInFromTop{
+    0%{
+        transform: translateX(-100%);
+    }
+    100%{
+        transform: translateX(0);
+    }
+}
+
+@media(max-width: 64em){
+    .myContent{
+        grid-template-columns: repeat(3, 1fr);
+    }
+    .navbar{
+        justify-content: center;
+    }
+    .container{
+        overflow: auto;
+    }
+    footer{
+        margin: 10px;
+        padding: 5px;
+    }
+}
+
+@media (max-width: 51.875em) {
+    .navbar{
+        height: 110px;
+    }
+    .navbar .flex{
+        flex-direction: column;
+    }
+    .navbar ul{
+        padding: 10px;
+        justify-self: center;
+    }
+    .linkbuttons{
+        align-content: center;
+    }
+    .container{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-content: center;
+    }
+}  
