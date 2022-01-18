@@ -1,0 +1,315 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&family=Amita&family=Annie+Use+Your+Telescope&family=Bad+Script&family=BenchNine:wght@300&family=Caveat&family=Cinzel&family=Cinzel+Decorative&family=Comforter&family=Coming+Soon&family=Corinthia&family=Dancing+Script&family=Fleur+De+Leah&family=Fredericka+the+Great&family=Fuzzy+Bubbles&family=Grey+Qo&family=Handlee&family=Herr+Von+Muellerhoff&family=Indie+Flower&family=Just+Another+Hand&family=Kalam:wght@300&family=Kings&family=Kristi&family=Lateef&family=Lobster+Two&family=Luxurious+Script&family=McLaren&family=Meow+Script&family=Merienda&family=Monsieur+La+Doulaise&family=Montserrat+Alternates:wght@100&family=Nanum+Pen+Script&family=Nothing+You+Could+Do&family=Patrick+Hand&family=Playfair+Display&family=Press+Start+2P&family=Redacted+Script:wght@300&family=Reenie+Beanie&family=Shadows+Into+Light&family=Shadows+Into+Light+Two&family=Shalimar&family=Shippori+Mincho&family=Stardos+Stencil&family=Yuji+Boku&display=swap');
+
+@media(max-width: 123.625em){
+:root{
+    --primary-color: bisque;
+}
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: "lato", "sans-serif";
+    color: #333;
+    line-height: 1.6;
+    font-size: 1em;
+    background-color: var(--primary-color);
+}
+ul{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+    color: #333;
+}
+h1{
+    font-weight: 300;
+    font-size: 2em;
+    line-height: 1.2;
+    margin: 10px 0;
+    text-decoration: underline lightslategrey;
+    font-family: 'Corinthia', cursive;
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Comforter', cursive;
+    font-family: 'Coming Soon', cursive;
+    font-family: 'Indie Flower', cursive;
+    font-family: 'Kings', cursive;
+    font-family: 'Annie Use Your Telescope', cursive;
+    font-family: 'BenchNine', sans-serif;
+    font-family: 'Stardos Stencil', cursive;
+}
+.logo{
+    animation: slideInFromTop 1s ease-in;
+}
+.welcome{
+    margin: 10px 0;
+    grid-column: 2/3;
+    grid-row: 1/2;
+    overflow: auto;
+}
+img{
+    width: 100%;
+}
+.picture1{
+    position: center;
+    width: 200px;
+    grid-column: 1/2;
+    grid-row: 1/2;
+}
+.navbar{
+    background-color: var(--primary-color);
+    color: midnightblue;
+    height: 70px;
+}
+.navbar ul{
+    display: flex;
+}
+.navbar a{
+    padding: 10px;
+    margin: 0 5px;
+}
+.navbar a:hover{
+    border-bottom: 2px rgb(0, 0, 0) solid;
+}
+.navbar .flex{
+    justify-content: space-between;
+}
+.showcase{
+    height: 400px;
+    background-color: var(--primary-color);
+    color: black;
+    position: relative;
+}
+
+.showcase h1{
+    font-size: 30px;
+    grid-row: 1/3;
+}
+.showcase p{
+    
+    padding: 10px;
+    margin: 5px;
+}
+.showcase .grid{
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+}
+.mainList{
+    display: list-item;
+    list-style-type: disc;
+    padding: 10px;
+    margin: 5px;
+}
+article{
+    padding: 10px;
+    margin: 5px;
+}
+.myContent{
+    padding-top: 100px;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 2;
+}
+.container{
+    max-width: 1100px;
+    margin: 0 auto;
+    overflow: auto;
+    padding: 0 40px;
+}
+.form-card{
+    background-color: #fff;
+    color: black;
+    border-radius: 10px;
+    box-shadow: 0 3px 10px lightslategray;
+    padding: 20px;
+    margin: 10px;
+    position: relative;
+    top: 60px;
+    height: 550;
+    width: 350px;
+    z-index: 100;
+    justify-self: flex-end;
+    grid-column: 3/4;
+}
+.form-control{
+    padding: 5px;
+    border: none;
+    border-bottom: 1px solid #b4becb;
+    width: 100%;
+    outline: none;
+}
+input{
+    border-top-style: hidden;
+    border-right-style: hidden;
+    border-left-style: hidden;
+    border-bottom-style: groove;
+    width: 100%;
+    padding: 5px;
+    font-size: 16px;
+}
+input:focus{
+    outline: none;
+}
+.btn{
+    display: inline-block;
+    padding: 10px 30px;
+    cursor: pointer;
+    background: whitesmoke;
+    color: cornflowerblue;
+    border: none;
+    border-radius: 5px;
+}
+.btn:hover{
+    transform: scale(.98);
+    color: black;
+}
+.text-center{
+    text-align: center;
+}
+.flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+.grid{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    overflow: visible;
+}
+.grid-3{
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+.items{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.tableData{
+    border: 2px lightslategray solid;
+    align-content: center;
+    background-color: var(--primary-color);
+    padding: 5px;
+    margin-top: 25px;
+    margin-bottom: 100px;
+    margin-left: 100px;
+    margin-right: 100px;
+    opacity: 0.8;
+}
+td{
+    border: 2px black solid;
+    text-align: center;
+    margin-right: 100px;
+    font-size: 18px;
+    background-color: #fff;
+}
+th{
+    border: 2px black solid;
+    text-align: center;
+    margin-right: 100px;
+    font-size: 18px;
+    background-color: #fff;
+}
+
+footer{
+    text-align: center;
+    padding: 15px;
+    margin: 15px;
+}
+}
+@keyframes slideInFromTop{
+    0%{
+        transform: translateX(-100%);
+    }
+    100%{
+        transform: translateX(0);
+    }
+}
+@media(max-width: 64em){
+    .grid,
+    .grid-3,
+    .myContent{
+        grid-template-columns: repeat(3, 1fr);
+    }
+    .navbar{
+        justify-content: center;
+    }
+    .showcase{
+        height: auto;
+    }
+    .picture{
+        justify-self: center;
+    }
+    .container{
+        overflow: auto;
+    }
+    .mainList{
+        text-align: center;
+        list-style-type: none;
+    }
+    .form-card{
+        width: 250px;
+        height: 270px;
+        left: 0;
+        right: 0;
+        top: -15px;
+    }
+    footer{
+        margin: 10px;
+        padding: 5px;
+    }
+}
+/* Mobile */
+@media (max-width: 51.875em) {
+    .navbar{
+        height: 110px;
+    }
+    .navbar .flex{
+        flex-direction: column;
+    }
+    .navbar ul{
+        padding: 10px;
+        background-color: rgba(0, 0, 0, 0.1);
+        justify-self: center;
+    }
+    .linkbuttons{
+        align-content: center;
+    }
+    .container{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-content: center;
+    }
+    .form-card{
+        position: relative;
+        left: 0;
+        right: 0;
+        top: -40px;
+        margin-bottom: 20px;
+    }
+    .grid-3{
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+    .mainList{
+        display: list-item;
+        list-style-type: disc;
+        padding: 10px;
+        margin: 5px;
+        float: right;
+        align-items: center;
+    }
+    .header2{
+        display: none;
+    }
+    .items{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+}  
