@@ -2,7 +2,7 @@
 
 @media(max-width: 123.625em){
 :root{
-    --primary-color: bisque;
+    --primary-color: rgb(236, 218, 56);
 }
 *{
     box-sizing: border-box;
